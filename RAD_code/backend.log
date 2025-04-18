@@ -1,0 +1,253 @@
+2025-04-18 11:54:46,725 - transcribe - INFO - Whisper model loaded successfully
+2025-04-18 11:54:46,731 - fastapi - ERROR - Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+
+2025-04-18 11:57:10,162 - transcribe - INFO - Whisper model loaded successfully
+2025-04-18 11:59:05,563 - transcribe - INFO - Whisper model loaded successfully
+2025-04-18 11:59:06,566 - __main__ - INFO - Starting FastAPI server...
+2025-04-18 11:59:20,883 - transcribe - INFO - Whisper model loaded successfully
+2025-04-18 11:59:22,882 - main - INFO - Starting up FastAPI application...
+2025-04-18 11:59:22,910 - transcribe - WARNING - FFmpeg is not installed or not in PATH
+2025-04-18 11:59:22,939 - main - ERROR - FFmpeg is not installed or not in PATH. The application may not work correctly.
+2025-04-18 12:25:23,814 - transcribe - INFO - Whisper model loaded successfully
+2025-04-18 12:25:23,953 - __main__ - INFO - Starting FastAPI server...
+2025-04-18 12:25:38,773 - transcribe - INFO - Whisper model loaded successfully
+2025-04-18 12:25:38,992 - main - INFO - Starting up FastAPI application...
+2025-04-18 12:25:39,070 - transcribe - INFO - FFmpeg is available
+2025-04-18 12:25:39,071 - main - INFO - FastAPI application started successfully
+2025-04-18 12:33:04,444 - transcribe - INFO - Whisper model loaded successfully
+2025-04-18 12:33:04,719 - main - INFO - Starting up FastAPI application...
+2025-04-18 12:33:04,844 - transcribe - INFO - FFmpeg is available
+2025-04-18 12:33:04,845 - main - INFO - FastAPI application started successfully
+2025-04-18 12:33:48,860 - main - INFO - Received file: temp_AyushWhatsApp Audio 2025-04-09 at 14.14.55_3bce2059.opus
+2025-04-18 12:33:48,865 - main - INFO - Saving file to: temp_temp_AyushWhatsApp Audio 2025-04-09 at 14.14.55_3bce2059.opus
+2025-04-18 12:33:48,866 - main - INFO - Starting transcription...
+2025-04-18 12:33:48,867 - transcribe - INFO - Starting transcription for file: temp_temp_AyushWhatsApp Audio 2025-04-09 at 14.14.55_3bce2059.opus
+2025-04-18 12:33:48,964 - transcribe - INFO - FFmpeg is available
+2025-04-18 12:33:48,965 - transcribe - INFO - Preprocessing audio file: temp_temp_AyushWhatsApp Audio 2025-04-09 at 14.14.55_3bce2059.opus
+2025-04-18 12:33:48,970 - transcribe - INFO - Running FFmpeg command: ffmpeg -y -i "E:\Radassist\temp_temp_AyushWhatsApp Audio 2025-04-09 at 14.14.55_3bce2059.opus" -ac 1 -ar 16000 -loglevel info -progress pipe:1 "C:\Users\SK SHARMA\AppData\Local\Temp\tmp80la7zgv.wav"
+2025-04-18 12:33:49,130 - transcribe - INFO - FFmpeg: bitrate= 256.0kbits/s
+2025-04-18 12:33:49,136 - transcribe - INFO - FFmpeg: total_size=634248
+2025-04-18 12:33:49,137 - transcribe - INFO - FFmpeg: out_time_us=19817813
+2025-04-18 12:33:49,137 - transcribe - INFO - FFmpeg: out_time_ms=19817813
+2025-04-18 12:33:49,137 - transcribe - INFO - FFmpeg: out_time=00:00:19.817813
+2025-04-18 12:33:49,138 - transcribe - INFO - FFmpeg: dup_frames=0
+2025-04-18 12:33:49,138 - transcribe - INFO - FFmpeg: drop_frames=0
+2025-04-18 12:33:49,139 - transcribe - INFO - FFmpeg: speed= 454x
+2025-04-18 12:33:49,139 - transcribe - INFO - FFmpeg: progress=end
+2025-04-18 12:33:49,154 - transcribe - WARNING - FFmpeg warnings: ffmpeg version N-119294-g7684243fbe-20250417 Copyright (c) 2000-2025 the FFmpeg developers
+  built with gcc 14.2.0 (crosstool-NG 1.27.0.18_7458341)
+  configuration: --prefix=/ffbuild/prefix --pkg-config-flags=--static --pkg-config=pkg-config --cross-prefix=x86_64-w64-mingw32- --arch=x86_64 --target-os=mingw32 --enable-gpl --enable-version3 --disable-debug --enable-shared --disable-static --disable-w32threads --enable-pthreads --enable-iconv --enable-zlib --enable-libfreetype --enable-libfribidi --enable-gmp --enable-libxml2 --enable-lzma --enable-fontconfig --enable-libharfbuzz --enable-libvorbis --enable-opencl --disable-libpulse --enable-libvmaf --disable-libxcb --disable-xlib --enable-amf --enable-libaom --enable-libaribb24 --enable-avisynth --enable-chromaprint --enable-libdav1d --enable-libdavs2 --enable-libdvdread --enable-libdvdnav --disable-libfdk-aac --enable-ffnvcodec --enable-cuda-llvm --enable-frei0r --enable-libgme --enable-libkvazaar --enable-libaribcaption --enable-libass --enable-libbluray --enable-libjxl --enable-libmp3lame --enable-libopus --enable-librist --enable-libssh --enable-libtheora --enable-libvpx --enable-libwebp --enable-libzmq --enable-lv2 --enable-libvpl --enable-openal --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenh264 --enable-libopenjpeg --enable-libopenmpt --enable-librav1e --enable-librubberband --enable-schannel --enable-sdl2 --enable-libsnappy --enable-libsoxr --enable-libsrt --enable-libsvtav1 --enable-libtwolame --enable-libuavs3d --disable-libdrm --enable-vaapi --enable-libvidstab --enable-vulkan --enable-libshaderc --enable-libplacebo --enable-libvvenc --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxvid --enable-libzimg --enable-libzvbi --extra-cflags=-DLIBTWOLAME_STATIC --extra-cxxflags= --extra-libs=-lgomp --extra-ldflags=-pthread --extra-ldexeflags= --cc=x86_64-w64-mingw32-gcc --cxx=x86_64-w64-mingw32-g++ --ar=x86_64-w64-mingw32-gcc-ar --ranlib=x86_64-w64-mingw32-gcc-ranlib --nm=x86_64-w64-mingw32-gcc-nm --extra-version=20250417
+  libavutil      60.  1.100 / 60.  1.100
+  libavcodec     62.  0.101 / 62.  0.101
+  libavformat    62.  0.100 / 62.  0.100
+  libavdevice    62.  0.100 / 62.  0.100
+  libavfilter    11.  0.100 / 11.  0.100
+  libswscale      9.  0.100 /  9.  0.100
+  libswresample   6.  0.100 /  6.  0.100
+  libpostproc    59.  1.100 / 59.  1.100
+Input #0, ogg, from 'E:\Radassist\temp_temp_AyushWhatsApp Audio 2025-04-09 at 14.14.55_3bce2059.opus':
+  Duration: 00:00:19.82, start: 0.002167, bitrate: 18 kb/s
+  Stream #0:0: Audio: opus, 48000 Hz, mono, fltp
+Stream mapping:
+  Stream #0:0 -> #0:0 (opus (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to 'C:\Users\SK SHARMA\AppData\Local\Temp\tmp80la7zgv.wav':
+  Metadata:
+    ISFT            : Lavf62.0.100
+  Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 16000 Hz, mono, s16, 256 kb/s
+    Metadata:
+      encoder         : Lavc62.0.101 pcm_s16le
+[out#0/wav @ 000001ce16ff6c40] video:0KiB audio:619KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.012300%
+size=     619KiB time=00:00:19.81 bitrate= 256.0kbits/s speed= 454x    
+
+2025-04-18 12:33:49,162 - transcribe - INFO - Audio preprocessing completed. Output saved to: C:\Users\SK SHARMA\AppData\Local\Temp\tmp80la7zgv.wav
+2025-04-18 12:33:49,162 - transcribe - INFO - Loading Whisper model...
+2025-04-18 12:33:56,688 - transcribe - INFO - Whisper model loaded successfully
+2025-04-18 12:33:56,688 - transcribe - INFO - Starting transcription of file: C:\Users\SK SHARMA\AppData\Local\Temp\tmp80la7zgv.wav
+2025-04-18 12:34:18,636 - transcribe - INFO - Transcription completed successfully
+2025-04-18 12:34:18,637 - transcribe - INFO - Temporary file cleaned up: C:\Users\SK SHARMA\AppData\Local\Temp\tmp80la7zgv.wav
+2025-04-18 12:34:18,639 - main - INFO - Transcription completed successfully
+2025-04-18 12:34:18,640 - main - INFO - Removed temporary file: temp_temp_AyushWhatsApp Audio 2025-04-09 at 14.14.55_3bce2059.opus
+2025-04-18 12:42:04,740 - transcribe - INFO - Whisper model loaded successfully
+2025-04-18 12:42:04,884 - main - INFO - Starting up FastAPI application...
+2025-04-18 12:42:04,977 - transcribe - INFO - FFmpeg is available
+2025-04-18 12:42:04,977 - main - INFO - FastAPI application started successfully
+2025-04-18 12:43:36,243 - main - INFO - Received file: temp_AyushWhatsApp Audio 2025-04-09 at 14.14.55_3bce2059.opus
+2025-04-18 12:43:36,246 - main - INFO - Saving file to: temp_temp_AyushWhatsApp Audio 2025-04-09 at 14.14.55_3bce2059.opus
+2025-04-18 12:43:36,249 - main - INFO - Starting transcription...
+2025-04-18 12:43:36,250 - transcribe - INFO - Starting transcription for file: temp_temp_AyushWhatsApp Audio 2025-04-09 at 14.14.55_3bce2059.opus
+2025-04-18 12:43:36,566 - transcribe - INFO - FFmpeg is available
+2025-04-18 12:43:36,568 - transcribe - INFO - Preprocessing audio file: temp_temp_AyushWhatsApp Audio 2025-04-09 at 14.14.55_3bce2059.opus
+2025-04-18 12:43:36,575 - transcribe - INFO - Running FFmpeg command: ffmpeg -y -i "E:\Radassist\temp_temp_AyushWhatsApp Audio 2025-04-09 at 14.14.55_3bce2059.opus" -ac 1 -ar 16000 -loglevel info -progress pipe:1 "C:\Users\SK SHARMA\AppData\Local\Temp\tmp_74l__mh.wav"
+2025-04-18 12:43:37,049 - transcribe - INFO - FFmpeg: bitrate= 256.0kbits/s
+2025-04-18 12:43:37,052 - transcribe - INFO - FFmpeg: total_size=634248
+2025-04-18 12:43:37,053 - transcribe - INFO - FFmpeg: out_time_us=19817813
+2025-04-18 12:43:37,054 - transcribe - INFO - FFmpeg: out_time_ms=19817813
+2025-04-18 12:43:37,055 - transcribe - INFO - FFmpeg: out_time=00:00:19.817813
+2025-04-18 12:43:37,057 - transcribe - INFO - FFmpeg: dup_frames=0
+2025-04-18 12:43:37,058 - transcribe - INFO - FFmpeg: drop_frames=0
+2025-04-18 12:43:37,059 - transcribe - INFO - FFmpeg: speed= 147x
+2025-04-18 12:43:37,059 - transcribe - INFO - FFmpeg: progress=end
+2025-04-18 12:43:37,133 - transcribe - WARNING - FFmpeg warnings: ffmpeg version N-119294-g7684243fbe-20250417 Copyright (c) 2000-2025 the FFmpeg developers
+  built with gcc 14.2.0 (crosstool-NG 1.27.0.18_7458341)
+  configuration: --prefix=/ffbuild/prefix --pkg-config-flags=--static --pkg-config=pkg-config --cross-prefix=x86_64-w64-mingw32- --arch=x86_64 --target-os=mingw32 --enable-gpl --enable-version3 --disable-debug --enable-shared --disable-static --disable-w32threads --enable-pthreads --enable-iconv --enable-zlib --enable-libfreetype --enable-libfribidi --enable-gmp --enable-libxml2 --enable-lzma --enable-fontconfig --enable-libharfbuzz --enable-libvorbis --enable-opencl --disable-libpulse --enable-libvmaf --disable-libxcb --disable-xlib --enable-amf --enable-libaom --enable-libaribb24 --enable-avisynth --enable-chromaprint --enable-libdav1d --enable-libdavs2 --enable-libdvdread --enable-libdvdnav --disable-libfdk-aac --enable-ffnvcodec --enable-cuda-llvm --enable-frei0r --enable-libgme --enable-libkvazaar --enable-libaribcaption --enable-libass --enable-libbluray --enable-libjxl --enable-libmp3lame --enable-libopus --enable-librist --enable-libssh --enable-libtheora --enable-libvpx --enable-libwebp --enable-libzmq --enable-lv2 --enable-libvpl --enable-openal --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenh264 --enable-libopenjpeg --enable-libopenmpt --enable-librav1e --enable-librubberband --enable-schannel --enable-sdl2 --enable-libsnappy --enable-libsoxr --enable-libsrt --enable-libsvtav1 --enable-libtwolame --enable-libuavs3d --disable-libdrm --enable-vaapi --enable-libvidstab --enable-vulkan --enable-libshaderc --enable-libplacebo --enable-libvvenc --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxvid --enable-libzimg --enable-libzvbi --extra-cflags=-DLIBTWOLAME_STATIC --extra-cxxflags= --extra-libs=-lgomp --extra-ldflags=-pthread --extra-ldexeflags= --cc=x86_64-w64-mingw32-gcc --cxx=x86_64-w64-mingw32-g++ --ar=x86_64-w64-mingw32-gcc-ar --ranlib=x86_64-w64-mingw32-gcc-ranlib --nm=x86_64-w64-mingw32-gcc-nm --extra-version=20250417
+  libavutil      60.  1.100 / 60.  1.100
+  libavcodec     62.  0.101 / 62.  0.101
+  libavformat    62.  0.100 / 62.  0.100
+  libavdevice    62.  0.100 / 62.  0.100
+  libavfilter    11.  0.100 / 11.  0.100
+  libswscale      9.  0.100 /  9.  0.100
+  libswresample   6.  0.100 /  6.  0.100
+  libpostproc    59.  1.100 / 59.  1.100
+Input #0, ogg, from 'E:\Radassist\temp_temp_AyushWhatsApp Audio 2025-04-09 at 14.14.55_3bce2059.opus':
+  Duration: 00:00:19.82, start: 0.002167, bitrate: 18 kb/s
+  Stream #0:0: Audio: opus, 48000 Hz, mono, fltp
+Stream mapping:
+  Stream #0:0 -> #0:0 (opus (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to 'C:\Users\SK SHARMA\AppData\Local\Temp\tmp_74l__mh.wav':
+  Metadata:
+    ISFT            : Lavf62.0.100
+  Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 16000 Hz, mono, s16, 256 kb/s
+    Metadata:
+      encoder         : Lavc62.0.101 pcm_s16le
+[out#0/wav @ 000001cac7866700] video:0KiB audio:619KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.012300%
+size=     619KiB time=00:00:19.81 bitrate= 256.0kbits/s speed= 147x    
+
+2025-04-18 12:43:37,154 - transcribe - INFO - Audio preprocessing completed. Output saved to: C:\Users\SK SHARMA\AppData\Local\Temp\tmp_74l__mh.wav
+2025-04-18 12:43:37,156 - transcribe - INFO - Loading Whisper model...
+2025-04-18 12:43:49,551 - transcribe - INFO - Whisper model loaded successfully
+2025-04-18 12:43:49,551 - transcribe - INFO - Starting transcription of file: C:\Users\SK SHARMA\AppData\Local\Temp\tmp_74l__mh.wav
+2025-04-18 12:44:07,002 - transcribe - INFO - Transcription completed successfully
+2025-04-18 12:44:07,004 - transcribe - INFO - Temporary file cleaned up: C:\Users\SK SHARMA\AppData\Local\Temp\tmp_74l__mh.wav
+2025-04-18 12:44:07,010 - main - INFO - Transcription completed successfully
+2025-04-18 12:44:07,017 - main - INFO - Removed temporary file: temp_temp_AyushWhatsApp Audio 2025-04-09 at 14.14.55_3bce2059.opus
+2025-04-18 12:56:57,915 - transcribe - INFO - Whisper model loaded successfully
+2025-04-18 12:56:58,062 - main - INFO - Starting up FastAPI application...
+2025-04-18 12:56:58,233 - transcribe - INFO - FFmpeg is available
+2025-04-18 12:56:58,234 - main - INFO - FastAPI application started successfully
+2025-04-18 12:57:57,621 - main - INFO - Received file: temp_AyushWhatsApp Audio 2025-04-09 at 14.14.55_3bce2059.opus
+2025-04-18 12:57:57,646 - main - INFO - Saving file to: temp_temp_AyushWhatsApp Audio 2025-04-09 at 14.14.55_3bce2059.opus
+2025-04-18 12:57:57,648 - main - INFO - Starting transcription...
+2025-04-18 12:57:57,649 - transcribe - INFO - Starting transcription for file: temp_temp_AyushWhatsApp Audio 2025-04-09 at 14.14.55_3bce2059.opus
+2025-04-18 12:57:57,862 - transcribe - INFO - FFmpeg is available
+2025-04-18 12:57:57,863 - transcribe - INFO - Preprocessing audio file: temp_temp_AyushWhatsApp Audio 2025-04-09 at 14.14.55_3bce2059.opus
+2025-04-18 12:57:57,867 - transcribe - INFO - Running FFmpeg command: ffmpeg -y -i "E:\Radassist\temp_temp_AyushWhatsApp Audio 2025-04-09 at 14.14.55_3bce2059.opus" -ac 1 -ar 16000 -loglevel info -progress pipe:1 "C:\Users\SK SHARMA\AppData\Local\Temp\tmplm5ljzj3.wav"
+2025-04-18 12:57:58,063 - transcribe - INFO - FFmpeg: bitrate= 256.0kbits/s
+2025-04-18 12:57:58,064 - transcribe - INFO - FFmpeg: total_size=634248
+2025-04-18 12:57:58,064 - transcribe - INFO - FFmpeg: out_time_us=19817813
+2025-04-18 12:57:58,065 - transcribe - INFO - FFmpeg: out_time_ms=19817813
+2025-04-18 12:57:58,066 - transcribe - INFO - FFmpeg: out_time=00:00:19.817813
+2025-04-18 12:57:58,066 - transcribe - INFO - FFmpeg: dup_frames=0
+2025-04-18 12:57:58,067 - transcribe - INFO - FFmpeg: drop_frames=0
+2025-04-18 12:57:58,067 - transcribe - INFO - FFmpeg: speed= 295x
+2025-04-18 12:57:58,068 - transcribe - INFO - FFmpeg: progress=end
+2025-04-18 12:57:58,092 - transcribe - WARNING - FFmpeg warnings: ffmpeg version N-119294-g7684243fbe-20250417 Copyright (c) 2000-2025 the FFmpeg developers
+  built with gcc 14.2.0 (crosstool-NG 1.27.0.18_7458341)
+  configuration: --prefix=/ffbuild/prefix --pkg-config-flags=--static --pkg-config=pkg-config --cross-prefix=x86_64-w64-mingw32- --arch=x86_64 --target-os=mingw32 --enable-gpl --enable-version3 --disable-debug --enable-shared --disable-static --disable-w32threads --enable-pthreads --enable-iconv --enable-zlib --enable-libfreetype --enable-libfribidi --enable-gmp --enable-libxml2 --enable-lzma --enable-fontconfig --enable-libharfbuzz --enable-libvorbis --enable-opencl --disable-libpulse --enable-libvmaf --disable-libxcb --disable-xlib --enable-amf --enable-libaom --enable-libaribb24 --enable-avisynth --enable-chromaprint --enable-libdav1d --enable-libdavs2 --enable-libdvdread --enable-libdvdnav --disable-libfdk-aac --enable-ffnvcodec --enable-cuda-llvm --enable-frei0r --enable-libgme --enable-libkvazaar --enable-libaribcaption --enable-libass --enable-libbluray --enable-libjxl --enable-libmp3lame --enable-libopus --enable-librist --enable-libssh --enable-libtheora --enable-libvpx --enable-libwebp --enable-libzmq --enable-lv2 --enable-libvpl --enable-openal --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenh264 --enable-libopenjpeg --enable-libopenmpt --enable-librav1e --enable-librubberband --enable-schannel --enable-sdl2 --enable-libsnappy --enable-libsoxr --enable-libsrt --enable-libsvtav1 --enable-libtwolame --enable-libuavs3d --disable-libdrm --enable-vaapi --enable-libvidstab --enable-vulkan --enable-libshaderc --enable-libplacebo --enable-libvvenc --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxvid --enable-libzimg --enable-libzvbi --extra-cflags=-DLIBTWOLAME_STATIC --extra-cxxflags= --extra-libs=-lgomp --extra-ldflags=-pthread --extra-ldexeflags= --cc=x86_64-w64-mingw32-gcc --cxx=x86_64-w64-mingw32-g++ --ar=x86_64-w64-mingw32-gcc-ar --ranlib=x86_64-w64-mingw32-gcc-ranlib --nm=x86_64-w64-mingw32-gcc-nm --extra-version=20250417
+  libavutil      60.  1.100 / 60.  1.100
+  libavcodec     62.  0.101 / 62.  0.101
+  libavformat    62.  0.100 / 62.  0.100
+  libavdevice    62.  0.100 / 62.  0.100
+  libavfilter    11.  0.100 / 11.  0.100
+  libswscale      9.  0.100 /  9.  0.100
+  libswresample   6.  0.100 /  6.  0.100
+  libpostproc    59.  1.100 / 59.  1.100
+Input #0, ogg, from 'E:\Radassist\temp_temp_AyushWhatsApp Audio 2025-04-09 at 14.14.55_3bce2059.opus':
+  Duration: 00:00:19.82, start: 0.002167, bitrate: 18 kb/s
+  Stream #0:0: Audio: opus, 48000 Hz, mono, fltp
+Stream mapping:
+  Stream #0:0 -> #0:0 (opus (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to 'C:\Users\SK SHARMA\AppData\Local\Temp\tmplm5ljzj3.wav':
+  Metadata:
+    ISFT            : Lavf62.0.100
+  Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 16000 Hz, mono, s16, 256 kb/s
+    Metadata:
+      encoder         : Lavc62.0.101 pcm_s16le
+[out#0/wav @ 0000025265c0bc00] video:0KiB audio:619KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.012300%
+size=     619KiB time=00:00:19.81 bitrate= 256.0kbits/s speed= 295x    
+
+2025-04-18 12:57:58,104 - transcribe - INFO - Audio preprocessing completed. Output saved to: C:\Users\SK SHARMA\AppData\Local\Temp\tmplm5ljzj3.wav
+2025-04-18 12:57:58,105 - transcribe - INFO - Loading Whisper model...
+2025-04-18 12:58:07,701 - transcribe - INFO - Whisper model loaded successfully
+2025-04-18 12:58:07,703 - transcribe - INFO - Starting transcription of file: C:\Users\SK SHARMA\AppData\Local\Temp\tmplm5ljzj3.wav
+2025-04-18 12:58:21,382 - transcribe - INFO - Transcription completed successfully
+2025-04-18 12:58:21,383 - transcribe - INFO - Temporary file cleaned up: C:\Users\SK SHARMA\AppData\Local\Temp\tmplm5ljzj3.wav
+2025-04-18 12:58:21,386 - main - INFO - Transcription completed successfully
+2025-04-18 12:58:21,388 - main - INFO - Removed temporary file: temp_temp_AyushWhatsApp Audio 2025-04-09 at 14.14.55_3bce2059.opus
+2025-04-18 13:01:52,226 - transcribe - INFO - Whisper model loaded successfully
+2025-04-18 13:01:52,386 - main - INFO - Starting up FastAPI application...
+2025-04-18 13:01:52,454 - transcribe - INFO - FFmpeg is available
+2025-04-18 13:01:52,454 - main - INFO - FastAPI application started successfully
+2025-04-18 13:06:56,528 - transcribe - INFO - Whisper model loaded successfully
+2025-04-18 13:06:56,702 - main - INFO - Starting up FastAPI application...
+2025-04-18 13:06:56,765 - transcribe - INFO - FFmpeg is available
+2025-04-18 13:06:56,765 - main - INFO - FastAPI application started successfully
+2025-04-18 14:10:07,589 - transcribe - INFO - Whisper model loaded successfully
+2025-04-18 14:10:07,749 - __main__ - INFO - Starting FastAPI server...
+2025-04-18 14:10:28,337 - transcribe - INFO - Whisper model loaded successfully
+2025-04-18 14:10:28,503 - main - INFO - Starting up FastAPI application...
+2025-04-18 14:10:28,626 - transcribe - INFO - FFmpeg is available
+2025-04-18 14:10:28,627 - main - INFO - FastAPI application started successfully
+2025-04-18 14:15:06,374 - transcribe - INFO - Whisper model loaded successfully
+2025-04-18 14:15:06,794 - main - INFO - Starting up FastAPI application...
+2025-04-18 14:15:06,983 - transcribe - INFO - FFmpeg is available
+2025-04-18 14:15:06,984 - main - INFO - FastAPI application started successfully
+2025-04-18 14:15:38,899 - main - INFO - Received file: temp_AyushWhatsApp Audio 2025-04-09 at 14.14.55_3bce2059.opus
+2025-04-18 14:15:38,906 - main - INFO - Saving file to: temp_temp_AyushWhatsApp Audio 2025-04-09 at 14.14.55_3bce2059.opus
+2025-04-18 14:15:38,928 - main - INFO - Starting transcription...
+2025-04-18 14:15:39,032 - transcribe - INFO - Starting transcription for file: temp_temp_AyushWhatsApp Audio 2025-04-09 at 14.14.55_3bce2059.opus
+2025-04-18 14:15:40,191 - transcribe - INFO - FFmpeg is available
+2025-04-18 14:15:40,199 - transcribe - INFO - Preprocessing audio file: temp_temp_AyushWhatsApp Audio 2025-04-09 at 14.14.55_3bce2059.opus
+2025-04-18 14:15:40,211 - transcribe - INFO - Running FFmpeg command: ffmpeg -y -i "E:\Radassist\temp_temp_AyushWhatsApp Audio 2025-04-09 at 14.14.55_3bce2059.opus" -ac 1 -ar 16000 -loglevel info -progress pipe:1 "C:\Users\SK SHARMA\AppData\Local\Temp\tmpj0j3wgmy.wav"
+2025-04-18 14:15:40,822 - transcribe - INFO - FFmpeg: bitrate= 256.0kbits/s
+2025-04-18 14:15:40,827 - transcribe - INFO - FFmpeg: total_size=634248
+2025-04-18 14:15:40,828 - transcribe - INFO - FFmpeg: out_time_us=19817813
+2025-04-18 14:15:40,829 - transcribe - INFO - FFmpeg: out_time_ms=19817813
+2025-04-18 14:15:40,830 - transcribe - INFO - FFmpeg: out_time=00:00:19.817813
+2025-04-18 14:15:40,831 - transcribe - INFO - FFmpeg: dup_frames=0
+2025-04-18 14:15:40,832 - transcribe - INFO - FFmpeg: drop_frames=0
+2025-04-18 14:15:40,833 - transcribe - INFO - FFmpeg: speed= 159x
+2025-04-18 14:15:40,834 - transcribe - INFO - FFmpeg: progress=end
+2025-04-18 14:15:40,890 - transcribe - WARNING - FFmpeg warnings: ffmpeg version N-119294-g7684243fbe-20250417 Copyright (c) 2000-2025 the FFmpeg developers
+  built with gcc 14.2.0 (crosstool-NG 1.27.0.18_7458341)
+  configuration: --prefix=/ffbuild/prefix --pkg-config-flags=--static --pkg-config=pkg-config --cross-prefix=x86_64-w64-mingw32- --arch=x86_64 --target-os=mingw32 --enable-gpl --enable-version3 --disable-debug --enable-shared --disable-static --disable-w32threads --enable-pthreads --enable-iconv --enable-zlib --enable-libfreetype --enable-libfribidi --enable-gmp --enable-libxml2 --enable-lzma --enable-fontconfig --enable-libharfbuzz --enable-libvorbis --enable-opencl --disable-libpulse --enable-libvmaf --disable-libxcb --disable-xlib --enable-amf --enable-libaom --enable-libaribb24 --enable-avisynth --enable-chromaprint --enable-libdav1d --enable-libdavs2 --enable-libdvdread --enable-libdvdnav --disable-libfdk-aac --enable-ffnvcodec --enable-cuda-llvm --enable-frei0r --enable-libgme --enable-libkvazaar --enable-libaribcaption --enable-libass --enable-libbluray --enable-libjxl --enable-libmp3lame --enable-libopus --enable-librist --enable-libssh --enable-libtheora --enable-libvpx --enable-libwebp --enable-libzmq --enable-lv2 --enable-libvpl --enable-openal --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenh264 --enable-libopenjpeg --enable-libopenmpt --enable-librav1e --enable-librubberband --enable-schannel --enable-sdl2 --enable-libsnappy --enable-libsoxr --enable-libsrt --enable-libsvtav1 --enable-libtwolame --enable-libuavs3d --disable-libdrm --enable-vaapi --enable-libvidstab --enable-vulkan --enable-libshaderc --enable-libplacebo --enable-libvvenc --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxvid --enable-libzimg --enable-libzvbi --extra-cflags=-DLIBTWOLAME_STATIC --extra-cxxflags= --extra-libs=-lgomp --extra-ldflags=-pthread --extra-ldexeflags= --cc=x86_64-w64-mingw32-gcc --cxx=x86_64-w64-mingw32-g++ --ar=x86_64-w64-mingw32-gcc-ar --ranlib=x86_64-w64-mingw32-gcc-ranlib --nm=x86_64-w64-mingw32-gcc-nm --extra-version=20250417
+  libavutil      60.  1.100 / 60.  1.100
+  libavcodec     62.  0.101 / 62.  0.101
+  libavformat    62.  0.100 / 62.  0.100
+  libavdevice    62.  0.100 / 62.  0.100
+  libavfilter    11.  0.100 / 11.  0.100
+  libswscale      9.  0.100 /  9.  0.100
+  libswresample   6.  0.100 /  6.  0.100
+  libpostproc    59.  1.100 / 59.  1.100
+Input #0, ogg, from 'E:\Radassist\temp_temp_AyushWhatsApp Audio 2025-04-09 at 14.14.55_3bce2059.opus':
+  Duration: 00:00:19.82, start: 0.002167, bitrate: 18 kb/s
+  Stream #0:0: Audio: opus, 48000 Hz, mono, fltp
+Stream mapping:
+  Stream #0:0 -> #0:0 (opus (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to 'C:\Users\SK SHARMA\AppData\Local\Temp\tmpj0j3wgmy.wav':
+  Metadata:
+    ISFT            : Lavf62.0.100
+  Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 16000 Hz, mono, s16, 256 kb/s
+    Metadata:
+      encoder         : Lavc62.0.101 pcm_s16le
+[out#0/wav @ 00000146d8b5bb00] video:0KiB audio:619KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.012300%
+size=     619KiB time=00:00:19.81 bitrate= 256.0kbits/s speed= 159x    
+
+2025-04-18 14:15:40,915 - transcribe - INFO - Audio preprocessing completed. Output saved to: C:\Users\SK SHARMA\AppData\Local\Temp\tmpj0j3wgmy.wav
+2025-04-18 14:15:40,962 - transcribe - INFO - Loading Whisper model...
+2025-04-18 14:15:49,514 - transcribe - INFO - Whisper model loaded successfully
+2025-04-18 14:15:49,514 - transcribe - INFO - Starting transcription of file: C:\Users\SK SHARMA\AppData\Local\Temp\tmpj0j3wgmy.wav
+2025-04-18 14:16:38,069 - transcribe - INFO - Transcription completed successfully
+2025-04-18 14:16:38,070 - transcribe - INFO - Temporary file cleaned up: C:\Users\SK SHARMA\AppData\Local\Temp\tmpj0j3wgmy.wav
+2025-04-18 14:16:38,072 - main - INFO - Transcription completed successfully
+2025-04-18 14:16:38,073 - main - INFO - Removed temporary file: temp_temp_AyushWhatsApp Audio 2025-04-09 at 14.14.55_3bce2059.opus
+2025-04-18 14:19:00,207 - transcribe - INFO - Whisper model loaded successfully
+2025-04-18 14:19:01,198 - main - INFO - Starting up FastAPI application...
+2025-04-18 14:19:01,313 - transcribe - INFO - FFmpeg is available
+2025-04-18 14:19:01,313 - main - INFO - FastAPI application started successfully
