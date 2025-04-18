@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+streamlit
+openai-whisper
+torch
+ffmpeg-python
+python-multipart
+sounddevice
+soundfile
+numpy
+
